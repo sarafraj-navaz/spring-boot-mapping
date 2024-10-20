@@ -1,0 +1,15 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.cj.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/one-to-one-bi-springboot
+        username: root
+        password: Rohit@123
+    jpa:
+      hibernate:
+        ddl-auto: update
+      show-sql: true
+    
+server:
+  port: 8080
+        
+                
